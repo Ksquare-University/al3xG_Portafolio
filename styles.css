@@ -13,7 +13,7 @@ p {
 footer {
   background-color: #40474e;
   color: white;
-  padding: 6rem 0rem 11rem;
+  padding: 6rem;
   margin-top: 0;
 }
 footer a {
@@ -22,6 +22,9 @@ footer a {
 .container {
   background-color: transparent;
   border: blue;
+}
+.row {
+  padding-bottom: 3em;
 }
 
 .navbar {
@@ -77,8 +80,8 @@ footer a {
   padding-right: 25%;
 }
 #contactPhoto {
-  width: 25%;
-  border-radius: 50%;
+  width: 50%;
+  padding-right: 1em;
 }
 
 .fa-facebook-square:hover {
