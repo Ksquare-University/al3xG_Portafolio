@@ -1,5 +1,5 @@
-body{
-    background-color: white;
+body {
+  background-color: white;
 }
 img {
   max-width: 100%;
@@ -10,28 +10,36 @@ p {
   color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+footer {
+  background-color: #40474e;
+  color: white;
+  padding: 6rem 0rem 11rem;
+  margin-top: 0;
+}
+footer a {
+  color: white;
+}
 .container {
-    background-color:transparent;
-    border: blue;
-    
-  }
- 
+  background-color: transparent;
+  border: blue;
+}
+
 .navbar {
-    border-bottom: 3px solid red;
-    z-index: 1;
-  }
+  border-bottom: 3px solid red;
+  z-index: 1;
+}
 
 .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
 .sticky + .content {
-    padding-top: 60px;
-  }  
-  
-  /*@media only screen and (max-width: 600px) {
+  padding-top: 60px;
+}
+
+/*@media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
     }
@@ -55,10 +63,11 @@ p {
   }*/
 
 #about {
-    padding-top: 5em;
-    
-    background-color: rgb(37,101,174);
-  }
+  padding-top: 5em;
+  color: white;
+  background-color: rgb(37, 101, 174);
+}
+
 #whoIs {
   padding-left: 5em;
   padding-right: 5em;
@@ -66,4 +75,21 @@ p {
 #whoIsExpl {
   padding-left: 25%;
   padding-right: 25%;
+}
+#contactPhoto {
+  width: 25%;
+  border-radius: 50%;
+}
+
+.fa-facebook-square:hover {
+  color: turquoise;
+}
+.fa-github-square:hover {
+  color: turquoise;
+}
+.fa-instagram:hover {
+  color: turquoise;
+}
+.fa-linkedin:hover {
+  color: turquoise;
 }
