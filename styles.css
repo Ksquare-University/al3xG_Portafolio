@@ -42,6 +42,14 @@ footer a {
   padding-top: 60px;
 }
 
+.card-img-top {
+  border-radius: 10%;
+}
+.row div{
+  padding: 20px 10px;
+  border: 1px white solid;
+}
+
 /*@media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
